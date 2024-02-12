@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0xp;
+    text-align: center;
+    background-color:white;
+    color: black;
+}
+
+.button{
+    height: 40px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-right: 5px;
+}
+
+.button:hover{
+    background-color: rgba(7, 103, 213);
+    color: white;
+}
+
+
+.list-container{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    
+}
+
+
+.list-Elements{
+    font-size: 18px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(10, 9, 9);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.button-container{
+   text-align: center;
+}
+
+.list-Active-Elements {
+    font-size: 18px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    color: white;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: rgb(20, 113, 206);
+}
+
+
+.result-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.result{
+    font-size: 18px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border: 1px solid rgb(10, 9, 9);
+    border-radius: 8px;
+    margin-left: 10px;
+}
